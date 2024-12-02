@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.markazi-text-400 {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.markazi-text-500 {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.markazi-text-700 {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.karla-400 {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
