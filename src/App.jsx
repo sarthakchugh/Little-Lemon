@@ -3,9 +3,8 @@ import './App.css';
 import Layout from './components/layout';
 import Home from './pages/home';
 import Reservation from './pages/reservation';
-import About from './pages/about';
-import Menu from './pages/menu';
 import Login from './pages/login';
+import ConfirmedBooking from './pages/confirmedBooking';
 
 function App() {
     return (
@@ -14,8 +13,7 @@ function App() {
                 <Route path="/" element={<Layout />}>
                     <Route element={<Home />} index />
                     <Route path="reservation" element={<Reservation />} />
-                    <Route path="about" element={<About />} />
-                    <Route path="menu" element={<Menu />} />
+                    <Route path="confirm" element={<ConfirmedBooking />} />
                     <Route path="login" element={<Login />} />
                 </Route>
             </Routes>

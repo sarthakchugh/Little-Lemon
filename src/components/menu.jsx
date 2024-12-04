@@ -1,5 +1,5 @@
-import Button from '../components/button';
-import Card from '../components/card';
+import Button from './button';
+import Card from './card';
 import { SPECIALS } from '../util/specials';
 
 const Menu = () => {

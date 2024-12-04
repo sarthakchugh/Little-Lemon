@@ -14,19 +14,19 @@ const Footer = () => {
                 <nav>
                     <ul className="flex flex-col">
                         <li className={padding}>
-                            <Link to={'/'}>Home</Link>
+                        <a href="/#home">Home</a>
                         </li>
                         <li className={padding}>
-                            <a href="#about">About</a>
+                            <a href="/#about">About</a>
                         </li>
                         <li className={padding}>
-                            <a href="#menu">Menu</a>
+                            <a href="/#menu">Menu</a>
                         </li>
                         <li className={padding}>
                             <Link to={'/reservation'}>Reservations</Link>
                         </li>
                         <li className={padding}>
-                            <a href="#menu">Order Online</a>
+                            <a href="/#menu">Order Online</a>
                         </li>
                         <li className={padding}>
                             <Link to={'/login'}>Login</Link>
